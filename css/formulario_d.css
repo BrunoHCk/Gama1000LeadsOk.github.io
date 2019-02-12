@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex !important; 
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-content: center;
+}
