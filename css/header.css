@@ -1,0 +1,43 @@
+header {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: row;
+    }
+    
+    header > input {
+    position: absolute;
+    width: 147px;
+    height: 30px;
+    left: 1158px;
+    top: 20px;
+    
+    background: #C2285F;
+    border-radius: 3px;
+    }
+    
+    header > ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header > ul > li {
+        list-style-type: none;
+        padding: 12px;
+        width: 124px;
+        height: 15px;
+        left: 861px;
+        top: 28.17px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 22px;
+    
+    
+    }
+    
