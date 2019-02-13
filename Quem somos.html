@@ -8,42 +8,93 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Quem somos</title>
   </head>
   <body>
-  <div class="card bg-dark text-white" style="position: absolute;
-    width: 1440px;
-    height: 300px;
-    left: 0px;
-    top: 69px;">
-    <img src="Imagens/Quem somos/Group.jpg" class="card-img" alt="nosso banner">
+    <!-- Inicio Header -->
+  <header>
+      <div class="col-md-12">
+        <div class="col-md-6">
+          <img src="Imagens/Home/Logo.png" alt="Logo_eventgrow">
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>
+              <a href="html/Fale conosco.html">Fale Conosco</a>
+            </li>
+            <li>
+              <a href="">Quem somos</a>
+            </li>
+            <li>
+              <a href="">Busca
+                <img src="Imagens/Home/lupa.png" alt="lupa">
+              </a>
+            </li>
+            <input type="button" value="Inscreva-se" class="formulario">
+          </ul>
   
-  <section id="servico"> 
-    <div class="card-img-overlay">
-      <h3 class="card-text">Conhecer os seus clientes é apenas o começo</h3>
-  </div>
-  <section id="paragrafo"> 
-  <p> Atualmente saber o seu público já não é mais o suficiente. Entendê-los e trabalhar com essa compressão é essencial para um projeto bem sucedido.
-      <section> 
-    <div class="card" style="width: 18rem;">
-    <img src="Imagens/Quem somos/icone eventos.png" class="card-img-top" alt="eventos">
-  <div class="card-body">
-      <p class="card-text">Venda e gestão de ingressos e inscrições.</p>
-  <div class="card" style="width: 18rem;">
-    <img src="Imagens/Quem somos/icone vendas.png" class="card-img-top" alt="temporadas">
-  <div class="card-body">
-      <p class="card-text">Venda e gestão de ingressos de temporada.</p>
-  <div class="card" style="width: 18rem;">
-    <img src="Imagens/Quem somos/icone assinaturas.png" class="card-img-top" alt="Assinaturas">
-  <div class="card-body">
-      <p class="card-text">Venda e gestão para programas de associados.</p>
-  <div class="card" style="width: 18rem;">
-    <img src="Imagens/Quem somos/icone doaçoes.png" class="card-img-top" alt="Doaçoes">
-  <div class="card-body">
-        <p class="card-text">Doações das mais diversas formas.</p>
-  </div>
-</section>
-A nossa ferramenta permite você conversar diretamente com o seu público! São infinitas possibilidades quando se comunica por disparos segmentados de emails para os mais diversos eventos</p>
+        </div>
+      </div>
+    </header>
+    <!-- Final Header -->
+
+    <!-- Inicio banner -->
+    <section id="banner hero">  
+        <div class="card bg-dark text-white">
+            <img src="Imagens/Quem somos/Group.jpg" class="card-img" alt="grupo de pessoas">
+            <div class="card-img-overlay">
+            <h2 class="card-title">Organização é apenas o começo</h2>
+        </div>
+    </section>
+    <!-- Final banner -->
+    
+    <!--Inicio texto -->
+    <section id="paragrafo"> 
+      <p> O setor de eventos é cada dia mais competitivo, vivemos no mundo pós-internet — a revolução digital já é passado e o mercado acompanha essas mudanças. A EventGROW surgiu com a proposta de ser sua parceira de resultados! </p>
+      <br>
+      <p>Através da geração de conteúdos de organização de eventos, ajudamos você a garantir o sucesso do seu evento.</p>
+    <section>
+    <!-- Final texto -->
+
+    <!-- Inicio cards -->
+    <section id="grupo de cards">
+        <div class="card-deck">
+            <div class="card">
+              <img src="Imagens/Quem somos/icone eventos.png" class="card-img-top" alt="icone eventos">
+              <div class="card-body">
+                <h5 class="card-title">Eventos</h5>
+                <p class="card-text">Venda e gestão de ingressos e inscrições.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Imagens/Quem somos/icone vendas.png" class="card-img-top" alt="icone temporadas">
+              <div class="card-body">
+                <h5 class="card-title">Vendas em temporadas</h5>
+                <p class="card-text">Venda e gestão de ingressos de temporada.</p>
+              </div>
+            </div>
+        </div> 
+    </section>
+    <section id="grupo de cards 2">
+        <div class="card-deck">
+            <div class="card">
+              <img src="Imagens/Quem somos/icone assinaturas.png" class="card-img-top" alt="icone assinaturas">
+              <div class="card-body">
+                <h5 class="card-title">Assinaturas</h5>
+                <p class="card-text"></p>Venda e gestão para programas de associados.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Imagens/Quem somos/icone doaçoes.png" class="card-img-top" alt="icone doacoes">
+              <div class="card-body">
+                <h5 class="card-title">Doações</h5>
+                <p class="card-text">Doações das mais diversas formas.</p>
+              </div>
+            </div>
+        </div> 
+    </section>
+    <!-- Final cards -->
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

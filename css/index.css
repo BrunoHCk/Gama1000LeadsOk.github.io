@@ -75,7 +75,11 @@ section > div > div {
 
 #form > p {
     color: #6F306C;
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size: 26px;
+>>>>>>> b466f1b05c9af09ad0b4355b1603d04b93d14cea
     margin-right: 90px;
 
 }
@@ -87,6 +91,70 @@ section > div > div {
     margin-top: 80px;
 }
 
+<<<<<<< HEAD
+=======
+
+footer > div {
+    margin: 150px;
+}
+    
+class#cardtitle {
+/* Frase de efeito */
+
+position: absolute;
+width: 128px;
+height: 128px;
+right: 250px;
+top: 250px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 44px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+section#paragrafo {
+    /* O setor de eventos é cada dia mais competitivo...*/
+    position: absolute;
+    width: 700px;
+    height: 489px;
+    left: 372px;
+    top: 428px;
+    
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    
+    color: #707070;
+    
+    /* CINZA ESCURO */}
+
+    class#card-title {
+    /* Eventos Venda e gestão de ingressos e inscrições. */
+
+position: absolute;
+width: 317px;
+height: 92px;
+left: 383px;
+top: 814px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #333333;}
+
+/* CINZA ESCURO */
+>>>>>>> b466f1b05c9af09ad0b4355b1603d04b93d14cea
 
 #border {
     padding: 70px 100px 30px 100px;
@@ -101,6 +169,7 @@ section > div > div {
 .ordem {
     color: #70316d;
     font-size: 26px;
+<<<<<<< HEAD
     list-style-type: none;
     
 }
@@ -119,3 +188,6 @@ footer > div > p {
     font-weight: bold;
     padding: 20px 100px;
 }
+=======
+}
+>>>>>>> b466f1b05c9af09ad0b4355b1603d04b93d14cea
