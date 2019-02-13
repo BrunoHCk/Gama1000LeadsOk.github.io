@@ -91,7 +91,7 @@ section > div > div {
 footer > div {
     margin: 150px;
 }
-    
+/*    
 class#cardtitle {
 /* Frase de efeito */
 
@@ -143,7 +143,7 @@ font-size: 20px;
 text-align: center;
 color: #333333;
 }
-
+*/
 #border {
     padding: 70px 100px 30px 100px;
     display: flex;
