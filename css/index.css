@@ -73,12 +73,12 @@ section > div > div {
     margin-bottom: 25px;
 }
 
-section > div > p {
+#form > p {
     color: #6F306C;
     font-size: 26px;
-    margin-right: 30px;
-}
+    margin-right: 90px;
 
+}
 #form{
     display: flex;
     flex-direction: row;
@@ -86,6 +86,7 @@ section > div > p {
     padding-bottom: 30px;
     border-bottom: 1px solid #6F306C;
 }
+
 
 footer > div {
     margin: 150px;
