@@ -91,59 +91,7 @@ section > div > div {
 footer > div {
     margin: 150px;
 }
-/*    
-class#cardtitle {
-/* Frase de efeito */
 
-position: absolute;
-width: 128px;
-height: 128px;
-right: 250px;
-top: 250px;
-
-font-family: Source Sans Pro;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 44px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-section#paragrafo {
-    /* O setor de eventos é cada dia mais competitivo...*/
-    position: absolute;
-    width: 700px;
-    height: 489px;
-    left: 372px;
-    top: 428px;
-    
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 26px;
-    
-    color: #707070;
-    
-    /* CINZA ESCURO */}
-class#card-title {
-    /* Eventos Venda e gestão de ingressos e inscrições. */
-position: absolute;
-width: 317px;
-height: 92px;
-left: 383px;
-top: 814px;
-font-family: Source Sans Pro;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 20px;
-text-align: center;
-color: #333333;
-}
-*/
 #border {
     padding: 70px 100px 30px 100px;
     display: flex;
