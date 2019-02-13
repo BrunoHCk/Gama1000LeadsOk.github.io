@@ -76,7 +76,6 @@ section > div > div {
 #form > p {
     color: #6F306C;
     font-size: 30px;
-    font-size: 26px;
     margin-right: 90px;
 }
 
@@ -88,9 +87,6 @@ section > div > div {
     margin-top: 80px;
 }
 
-footer > div {
-    margin: 150px;
-}
 
 #border {
     padding: 70px 100px 30px 100px;
@@ -120,4 +116,5 @@ footer > div > p {
     font-size: 20px;
     font-weight: bold;
     padding: 20px 100px;
+    width: 0;
 }
