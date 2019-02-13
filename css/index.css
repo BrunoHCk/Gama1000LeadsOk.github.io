@@ -27,3 +27,22 @@ color: #707070;
 /* CINZA ESCURO */
 }
     
+class#cardtitle {
+/* Frase de efeito */
+
+position: absolute;
+width: 548px;
+height: 250px;
+left: 250px;
+top: 250px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 44px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
