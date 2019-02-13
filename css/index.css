@@ -1,0 +1,29 @@
+section#servico {
+/* card eventos */
+position: absolute;
+width: 341px;
+height: 212px;
+left: 371px;
+top: 713px;
+}
+
+section#paragrafo {
+/* Atualmente saber o seu público já não é mais o suficiente. Entendê-los e trabalhar com essa compressão é essencial para um projeto bem sucedido. A nossa ferramenta permite você conversar diretamente com o seu público! São infinitas possibilidades quando se comunica por disparos segmentados de emails para os mais diversos eventos . */
+
+position: absolute;
+width: 700px;
+height: 489px;
+left: 372px;
+top: 428px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 26px;
+
+color: #707070;
+
+/* CINZA ESCURO */
+}
+    
