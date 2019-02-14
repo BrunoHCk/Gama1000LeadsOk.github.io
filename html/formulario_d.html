@@ -8,6 +8,7 @@
     <title>Download</title>
     <link rel="stylesheet" type="text/css" href="../css/formulario_d.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -21,10 +22,11 @@
                 <div class="col">
                     <img src="../Imagens/Formulario/Imagem.png" alt="Formulario" class="img-fluid">
                 </div>
+
                 <div class="col">
                     <p class="lead">Sabia que pode melhorar ainda mais sua performance, otimizando a forma com que lida com seus leads? Baixe o nosso guia e surpreenda-se!
                     </p>
-                    <p class="lead">Nome Completo</p>
+                    <p class="lead" id="top">Nome Completo</p>
                     <input type="text" name="" id="" class="form-control">
                     <p class="lead">Email</p>
                     <input type="text" name="" id="" class="form-control">
@@ -35,13 +37,22 @@
                     
                     <div>
                     <a href="../index.html">Continuar no blog.</a>
-                    <button type="button" class="btn-lg btn-secondary">Receba seu conteúdo</button>
+                    <input type="submit" class="btn-lg btn-secondary js-teste" value="Receba seu conteúdo">
                     </div>
                 </div>
 
             </div>
         </div>
     </section>
+    <script>
+    $(document).on('click',".js-teste", function(event) {
+
+        event.preventDefault();
+        alert("teste")
+    }
+    )
+    </script>
 </body>
+
 
 </html>
