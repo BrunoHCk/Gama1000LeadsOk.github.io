@@ -9,6 +9,9 @@
     <title>Download</title>
     <link rel="stylesheet" type="text/css" href="../css/formulario_d.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<<<<<<< HEAD
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+=======
     <script src="./js/Firebase.js" ></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
@@ -24,6 +27,7 @@
       };
       firebase.initializeApp(config);
     </script>
+>>>>>>> 8897c654be4a816e12851884065db060fce25f1a
 </head>
 
 <body>
@@ -41,6 +45,21 @@
                 <div class="col">
                     <p class="lead">Sabia que pode melhorar ainda mais sua performance, otimizando a forma com que lida com seus leads? Baixe o nosso guia e surpreenda-se!
                     </p>
+<<<<<<< HEAD
+                    <p class="lead" id="top">Nome Completo</p>
+                    <input type="text" name="" id="" class="form-control">
+                    <p class="lead">Email</p>
+                    <input type="text" name="" id="" class="form-control">
+                    <p class="lead">Empresa</p>
+                    <input type="text" name="" id="" class="form-control">
+                    <p class="lead">Cargo</p>
+                    <input type="text" name="" id="" class="form-control">
+                    
+                    <div>
+                    <a href="../index.html">Continuar no blog.</a>
+                    <input type="submit" class="btn-lg btn-secondary js-teste" value="Receba seu conteúdo">
+                    </div>
+=======
                     <form action="" id="planilha-lead" enctype="multipart/form-data" method="GET">
                         <p class="lead" id="top">Nome Completo</p>
                         <input type="text" name="camponome" id="camponome" class="form-control">
@@ -55,12 +74,26 @@
                         <button type="button submit" id="botao" class="btn-lg btn-secondary">Receba seu conteúdo</button>
                         </div>
                     </form>
+>>>>>>> 8897c654be4a816e12851884065db060fce25f1a
                 </div>
 
             </div>
         </div>
     </section>
+    <script>
+    $(document).on('click',".js-teste", function(event) {
+
+        event.preventDefault();
+        alert("teste")
+    }
+    )
+    </script>
 </body>
+<<<<<<< HEAD
+
+
+</html>
+=======
 <script> 
 $(document).ready(function(){
     $("#botao").on('click',function(e){
@@ -80,3 +113,4 @@ let usersJSON=JSON.stringify(users);
 } );
 </script>
 </html>
+>>>>>>> 8897c654be4a816e12851884065db060fce25f1a
