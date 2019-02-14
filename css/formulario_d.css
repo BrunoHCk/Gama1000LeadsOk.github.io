@@ -1,6 +1,7 @@
 body {
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
 }
 
 header{
@@ -25,4 +26,42 @@ section > div > div {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
+}
+
+.lead {
+    color: #fff;
+    font-size: 20px !important;
+}
+
+a {
+    margin-right: 200px;
+    color: #fff !important;
+    font-size: 20px;
+    text-decoration: underline !important;
+}
+
+.btn-secondary {
+    background-color: #ff6948 !important;
+    border-color: #ff6948 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #ff6948 !important;
+    border-color: #ff6948 !important;
+}
+
+div > div {
+    margin-top: 70px;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
+
+#top {
+    margin-top: 40px !important;
+}
+
+section > div > div {
+    padding-bottom: 70px;
 }
