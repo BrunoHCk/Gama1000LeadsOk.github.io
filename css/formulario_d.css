@@ -11,3 +11,18 @@ header{
     justify-content: center;
     align-content: center;
 }
+
+section > div {
+    display: flex;
+    justify-content: center;
+}
+
+#teste{
+    background: linear-gradient(180deg, rgba(153, 66, 149, 0.85) 0%, rgba(50, 69, 153, 0.85) 93.92%);
+}
+
+section > div > div {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
