@@ -62,8 +62,14 @@
     width: 0;
 }
 
-a {
+font {
     color: #000 !important;
 }
+
+.fonte:hover {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
 
 
