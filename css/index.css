@@ -71,5 +71,10 @@ font {
     text-decoration: none !important;
 }
 
+.teste {
+    background-image: url("../Imagens/Home/Imagem.jpg");
+}
 
-
+#comprar {
+    font-size: 23px !important;
+}
