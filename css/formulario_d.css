@@ -1,7 +1,6 @@
 body {
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #fff;
 }
 
 header{
@@ -13,7 +12,14 @@ header{
     align-content: center;
 }
 
-section > div {
+#ajuste {
+    width: 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#center {
     display: flex;
     justify-content: center;
 }
@@ -22,23 +28,12 @@ section > div {
     background: linear-gradient(180deg, rgba(153, 66, 149, 0.85) 0%, rgba(50, 69, 153, 0.85) 93.92%);
 }
 
-section > div > div {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-}
 
 .lead {
     color: #fff;
-    font-size: 20px !important;
+    margin-bottom: 5px;
 }
 
-a {
-    margin-right: 200px;
-    color: #fff !important;
-    font-size: 20px;
-    text-decoration: underline !important;
-}
 
 .btn-secondary {
     background-color: #ff6948 !important;
@@ -50,51 +45,23 @@ a {
     border-color: #ff6948 !important;
 }
 
-div > div {
-    margin-top: 70px;
-}
-
 .form-control {
     margin-bottom: 5px;
 }
 
-#top {
-    margin-top: 40px !important;
+#margem {
+    padding: 10px;
 }
 
-section > div > div {
-    padding-bottom: 70px;
-}
-
-/* h2 */
-#cabeçalho{
-    padding: 20px;
+.texto {
     color: #fff;
 }
 
-/* p */
-.ordem {
-    padding-bottom: 10px;
-    margin-top: 10px;
+#preencher {
+    margin-top: 80px;
 }
 
-/* Ultimo p */
-#base {
-    margin-top: 10px;
-}
-
-/* ampliar fomulario */
-#ampliar {
-    width: 100%;
-}
-
-/* ajustar imagem */
-#ajusteI {
-    justify-content: flex-end;
-    display: flex;
-    margin-top: 30px;
-}
-
-#ajusteP{
-    margin-top: 30px;
+#espaço {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
