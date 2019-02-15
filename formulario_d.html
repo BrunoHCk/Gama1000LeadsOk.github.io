@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -12,6 +11,10 @@
     <script src="./js/Firebase.js" ></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+    <script>function chamada() {
+        alert("Obrigado! Recebemos seu cadastro. Em até 24h você receberá sua planilha");
+    };    
+    </script>
     </head>
 
 <body>
@@ -83,7 +86,7 @@
                         </div>
                         
                         <div class="col-md-12">
-                        <button type="submit" id="botao" class="btn-lg btn-secondary">Receba seu conteúdo</button>
+                        <button type="submit" id="botao" class="btn-lg btn-secondary" onclick="chamada()">Receba seu conteúdo</button>
                         </div>
                     </form>
                 </div>
